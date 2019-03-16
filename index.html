@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Try Catch Metodu</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="form-box">
+            <h1>Form <span>Registration</span></h1>
+            <form role="form" id="contact-form">
+                <!-- name field -->
+                <div class="form-group">
+                    <div id="nameError" class="sr-only" role="alert"></div>
+                    <label for="form-name-field" class="sr-only">Name</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                        <input type="text" class="form-control" id="form-name-field" value="" placeholder="Name">
+                    </div>
+                </div>
+                <!-- email field -->
+                <div class="form-group">
+                    <div id="emailError" class="sr-only"" role="alert"></div>
+                <label for="form-email-field" class="sr-only">Email</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                    <input type="email" class="form-control" id="form-email-field" value="" placeholder="Email">
+                </div>
+        </div>
+        <!-- phone field -->
+        <div class="form-group">
+            <div id="phoneError" class="sr-only"" role="alert"></div>
+        <label for="form-phone-field" class="sr-only">Phone</label>
+        <div class="input-group">
+            <div class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></div>
+            <input type="tel" class="form-control" id="form-phone-field" value="" placeholder="Phone">
+        </div>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="checkbox-form"> I agree to terms and condition.
+        </label>
+        <div id="term-field" class="well">
+            <p id="errors"></p>
+        </div>
+    </div>
+    <button id="myBtn" type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
